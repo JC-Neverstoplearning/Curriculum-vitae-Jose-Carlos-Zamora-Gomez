@@ -1,0 +1,475 @@
+
+<!--------------------------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="jose.jpg">
+	<title>Curriculum vitae José Zamora</title>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".full_info_wrap .tabs ul li").click(function(){
+				$(".full_info_wrap .tabs ul li").removeClass("active");
+				$(this).addClass("active");
+
+				var datali = $(this).attr("data-li");
+
+				$(".full_info_item").hide();
+
+				if(datali == "experience"){
+					$(".experience").show();
+				}
+				else if(datali == "education"){
+					$(".education").show();
+				}
+				else if(datali == "contact"){
+					$(".contact").show();
+				}
+				else{
+					console.log("Loding...");
+				}
+			})
+		})
+	</script>
+</head>
+
+<!-------------------------------------------------------------------------------------------------------->
+
+<body>
+<div class="wrapper">
+   <div class="resume">
+    
+       <div class="profile_info">
+            <div class="profile_img">
+              <img src="jose.jpg" alt="jose.jpg">
+				<br>			
+			</div>
+            <div class="profile_data">
+                <p class="name">José Carlos Zamora Gómez</p>
+				<br>
+				<p class="view_more_btn">Student in the area of Languages and Technology</p>
+				<br>
+				<span><i class="fas fa-map-marker-alt"></i> Parramos, Chimaltenango</span>
+				<br>
+				<br>
+				<p class="title">About</p>
+				<p class="view_more_btn">Certified Computer Accountant, I have a Diploma in Software Development, I
+					have approved studies at Intecap, It Learning, Google Actívate, Carlos Slim
+					Foundation, LinkedIn, Platzi and Udemy on technology, languages and
+					personal development.</p>
+			</div>
+            <div class="view_more_btn">
+              <a href="#">View More</a>
+            </div>
+        </div>  
+
+<!--------------------------------------------------------------------------------------------------------->      
+
+		<div class="skills">
+	       <div class="title">
+	          Skills
+	       </div>
+	       <ul>
+	         <li>
+	           <div class="skill_item html">
+	             <div class="icon"></div>
+	             <div class="text">HTML</div>
+	           </div>
+	         </li>
+	         <li>
+	           <div class="skill_item css">
+	             <div class="icon"></div>
+	             <div class="text">CSS</div>
+	           </div>
+	         </li>
+	         <li>
+	           <div class="skill_item js">
+	             <div class="icon"></div>
+	             <div class="text">Javascript</div>
+	           </div>
+	         </li>
+	         <li>
+	           <div class="skill_item photoshop">
+	             <div class="icon1"></div>
+	             <div class="text">Soft Skills</div>
+	           </div>
+	         </li>
+	         <li>
+	           <div class="skill_item angular">
+	             <div class="icon2"></div>
+	             <div class="text">SQL</div>
+	           </div>
+	         </li>
+	         <li>
+	           <div class="skill_item react">
+	             <div class="icon3"></div>
+	             <div class="text">Power BI</div>
+	           </div>
+	         </li>
+			 <li>
+				<div class="skill_item js">
+				  <div class="icon4"></div>
+				  <div class="text">Agile Methodologies</div>
+				</div>
+			  </li>
+			  <li>
+				<div class="skill_item js">
+				  <div class="icon5"></div>
+				  <div class="text">Java</div>
+				</div>
+			  </li>
+			  <li>
+				<div class="skill_item js">
+				  <div class="icon6"></div>
+				  <div class="text">Technical Support</div>
+				</div>
+			  </li>
+			  <li>
+				<div class="skill_item js">
+				  <div class="icon7"></div>
+				  <div class="text">Excel</div>
+				</div>
+			  </li>
+			  <li>
+				<div class="skill_item js">
+				  <div class="icon8"></div>
+				  <div class="text">Python</div>
+				</div>
+			  </li>
+			  <li>
+				<div class="skill_item js">
+				  <div class="icon9"></div>
+				  <div class="text">Business Intelligence</div>
+				</div>
+			  </li>
+			</ul>
+		</div>
+<!-------------------------------------------------------------------------------------------------------->
+<div class="skills">
+	<div class="title">
+	   Languages
+	</div>
+	<ul>
+	  <li>
+		<div class="skill_item html">
+		  <div class="icon10"></div>
+		  <div class="text">Spanish - Native</div>
+		</div>
+	  </li>
+	  <li>
+		<div class="skill_item css">
+		  <div class="icon11"></div>
+		  <div class="text">English - B2</div>
+		</div>
+	  </li>
+	  <li>
+		<div class="skill_item css">
+		  <div class="icon12"></div>
+		  <div class="text">Portuguese - A1</div>
+		</div>
+	  </li>
+	</ul>
+ </div>	
+<!-------------------------------------------------------------------------------------------------------->	
+<div class="skills">
+	<div class="title">
+	   Hobbies
+	</div>
+	<ul>
+	  <li>
+		<div class="skill_item html">
+		  <div class="icon13"></div>
+		  <div class="text">Learn to program</div>
+		</div>
+	  </li>
+	  <li>
+		<div class="skill_item css">
+		  <div class="icon14"></div>
+		  <div class="text">Learn Languages</div>
+		</div>
+	  </li>
+	  <li>
+		<div class="skill_item css">
+		  <div class="icon15"></div>
+		  <div class="text">Study</div>
+		</div>
+	  </li>
+	  <li>
+		<div class="skill_item html">
+		  <div class="icon16"></div>
+		  <div class="text">Exercise</div>
+		</div>
+	  </li>
+	  <li>
+		<div class="skill_item css">
+		  <div class="icon17"></div>
+		  <div class="text">Podcasts</div>
+		</div>
+	  </li>
+	  <li>
+		<div class="skill_item css">
+		  <div class="icon18"></div>
+		  <div class="text">Lifestyle</div>
+		</div>
+	  </li>
+	</ul>
+ </div>
+<!-------------------------------------------------------------------------------------------------------->     
+        <div class="full_info_wrap">
+            <div class="tabs">
+                <ul>
+					<li data-li="education" class="active">Education</li>
+					<li data-li="experience">Awards</li>
+					<li data-li="contact">Contact</li>  
+                </ul>  
+            </div>  
+<!-------------------------------------------------------------------------------------------------------->            
+            <div class="full_info">
+                <div class="full_info_item experience"style="display: none;" >
+                    <div class="title">AWARDS</div>
+
+                    <div class="info_wrap">
+                    	<ul>
+                    		<li>
+                    			<div class="sub_title">
+                    				2020 - 2020
+                    			</div>
+								
+								<div class="info_item">
+									<div class="info_title">
+										Planeta FATLA scholarship 
+									</div>
+									<div class="data">
+										An international scholarship in the technologica area about Expert in Web
+										Administration in which I am currently participating.
+									</div>
+								</div>
+                    		</li>
+                    		<li>
+                    			<div class="sub_title">
+                    				2019 - 2020
+                    			</div>
+								
+								<div class="info_item">
+									<div class="info_title">
+										EmpleaTECH scholarship
+									</div>
+									<div class="data">
+										A High-Level scholarship on Software Development in Guatemala City
+										Completed.
+									</div>
+								</div>
+                    		</li>
+                    	</ul>
+                    </div>
+                </div>  
+<!-------------------------------------------------------------------------------------------------------->				
+				<div class="full_info_item education" >
+                  <div class="title">EDUCATION</div>
+
+                  <div class="info_wrap">
+                    	<ul>
+                    		<li>
+                    			<div class="sub_title">
+                    				2020 - 2020
+                    			</div>
+								
+								<div class="info_item">
+									<div class="info_title">
+										EXPERT IN WEB ADMINISTRATION
+									</div>
+									<div class="data">
+										Planeta FATLA scholarship
+									</div>
+								</div>
+                    		</li>
+                    		<li>
+                    			<div class="sub_title">
+                    				2019 - 2020 	
+                    			</div>
+								
+								<div class="info_item">
+									<div class="info_title">
+										DIPLOMA IN SOFTWARE DEVELOPMENT
+									</div>
+									<div class="data">
+										EmpleaTECH scholarship
+									</div>
+								</div>
+                    		</li>
+							<li>
+                    			<div class="sub_title">
+                    				2015 - 2017 	
+                    			</div>
+								
+								<div class="info_item">
+									<div class="info_title">
+										COMPUTER ACCOUNTING EXPERT
+									</div>
+									<div class="data">
+										Complejo CETACH
+									</div>
+								</div>
+                    		</li>
+							<div class="title">Other Studies</div>
+						<!--1-->
+						<li>
+							<div class="sub_title">
+								2020 - 2020 	
+							</div>
+							
+							<div class="info_item">
+								<div class="info_title">
+									MICROSOFT EXCEL - ANÁLISIS DE DATOS CON TABLAS DINÁMICAS
+								</div>
+								<div class="data">
+									Udemy
+								</div>
+							</div>
+						</li>
+						<!--2-->
+						<li>
+							<div class="sub_title">
+								2020 - 2020 	
+							</div>
+							
+							<div class="info_item">
+								<div class="info_title">
+									CURSO DE HTML: INTRODUCCIÓN COMPLETA A HTML Y HTML 5
+								</div>
+								<div class="data">
+									Udemy
+								</div>
+							</div>
+						</li>
+						<!--3-->
+						<li>
+							<div class="sub_title">
+								2020 - 2020 	
+							</div>
+							
+							<div class="info_item">
+								<div class="info_title">
+									CURSO DE MARCA PERSONAL
+								</div>
+								<div class="data">
+									Platzi
+								</div>
+							</div>
+						</li>
+						<!--4-->
+						<li>
+							<div class="sub_title">
+								2020 - 2020 	
+							</div>
+							
+							<div class="info_item">
+								<div class="info_title">
+									PRODUCTIVIDAD PERSONAL
+								</div>
+								<div class="data">
+									Google Actívate
+								</div>
+							</div>
+						</li>
+						<!--5-->
+						<li>
+							<div class="sub_title">
+								2020 - 2020 	
+							</div>
+							
+							<div class="info_item">
+								<div class="info_title">
+									JAVA FUNDAMENTALS
+								</div>
+								<div class="data">
+									IT Learning
+								</div>
+							</div>
+						</li>
+						<!--6-->
+						<li>
+							<div class="sub_title">
+								2020 - 2020 	
+							</div>
+							
+							<div class="info_item">
+								<div class="info_title">
+									METODOLOGÍAS ÁGILES
+								</div>
+								<div class="data">
+									IT Learning
+								</div>
+							</div>
+						</li>
+						<!--7-->
+						<li>
+							<div class="sub_title">
+								2020 - 2020 	
+							</div>
+							
+							<div class="info_item">
+								<div class="info_title">
+									BASE DE DATOS SQL
+								</div>
+								<div class="data">
+									IT Learning
+								</div>
+							</div>
+						</li>
+						</ul>
+                    </div>
+                </div>  
+<!------------------------------------------------------------------------------------------------------->				
+				<div class="full_info_item contact" style="display: none;">
+                  <div class="title">CONTACT</div>
+
+                  <div class="info_wrap">
+                  	<ul>
+                  		<li>
+                  			<span class="info_q">Email:</span>
+                  			<span class="info_a">josecarloszamoragomez2018@gmail.com</span>
+                  		</li>
+                  		<li>
+                  			<span class="info_q">Website:</span>
+                  			<span class="info_a"></span>
+                  		</li>
+                  		<li>
+                  			<span class="info_q">Phone:</span>
+                  			<span class="info_a">7965-8968/ 4275-8828</span>
+                  		</li>
+                  		<li>
+                  			<span class="info_q">LinkedIn:</span>
+                  			<span class="info_a"><a href="https://www.linkedin.com/in/josé-carlos-zamora-gómez-bab197190/">José Carlos Zamora Gómez</a></span>
+                  		</li>
+                  		<li>
+                  			<span class="info_q">Facebook:</span>
+                  			<span class="info_a"><a href="https://www.facebook.com/profile.php?id=100005199288792">Jose Carlos Zamora Gomez</a></span>
+                  		</li>
+                  		<li>
+                  			<span class="info_q">Twitter:</span>
+                  			<span class="info_a"><a href="https://twitter.com/JoseCar46586326">José Carlos Zamora Gómez</a></span>
+                  		</li>
+                  		<li>
+                  			<span class="info_q">Instagram:</span>
+                  			<span class="info_a"><a href="https://www.instagram.com/josecarloszamoragomez/?hl=es-la">José Carlos Zamora Gómez</a></span>
+                  		</li>
+                  		<li>
+                  			<span class="info_q">YouTube:</span>
+                  			<span class="info_a"><a href="https://www.youtube.com/channel/UCfSw3Jj5ckBhLZnZ4JFFzeg?view_as=subscriber">Never stop learning</a></span>
+                  		</li>
+                  	</ul>
+                  </div>
+                </div>  
+            </div> 
+        </div>
+     
+   </div>
+</div>
+
+</body>
+</html>

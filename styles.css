@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Trade+Winds&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+body{
+  background:#42A5F5 ;
+  font-size: 18px;
+  color:#37474F;
+  letter-spacing: 1px;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .resume{
+  width: 820px;
+  margin: 5px auto;
+  background:#81D4FA;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125), -1px -1px 2px rgba(0,0,0,0.125);
+}
+/*********************************************************************************************************/
+.resume .profile_info {
+  text-align: center;
+}
+
+.resume .profile_info .profile_img {
+  width: 150px;
+  margin: 0 auto 5px;
+}
+
+.resume .profile_info .profile_img img {
+  width: 100%;
+  display: block;
+}
+
+.resume .profile_info .profile_data .name {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family: 'Trade Winds';
+}
+
+.resume .profile_info .profile_data span {
+  display: inline-block;
+  color: #17202A;
+}
+
+.resume .view_more_btn a{
+    display: block;
+    background:#17202A ;
+    color: #fff;
+    padding: 10px 15px;
+    width: 125px;
+  margin: 10px auto;
+  border-radius: 3px;
+}
+
+.resume .view_more_btn a:hover {
+    background:#17202A ;
+}
+
+.resume .title{
+    text-align: center;  
+    font-size: 16px;
+    font-weight: 700;
+    color:#17202A ;
+    margin-bottom: 15px;
+}
+
+.skills ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.skills ul li{
+  padding: 0 5px 10px;
+  width: 33.32%;
+  height: 85px;
+}
+
+.skills ul li .skill_item{
+  background: #f2f4f5;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+.skills ul li .skill_item .icon{
+  background: url("skills.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+
+.skills ul li .skill_item.css .icon{
+  background-position: 0 -26px;
+}
+
+.skills ul li .skill_item.js .icon{
+  background-position: 0 -52px;
+   height: 24px;
+}
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon1{
+  background: url("soft\ skills\ \(2\).png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon2{
+  background: url("sql.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon3{
+  background: url("power\ bi.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon4{
+  background: url("agiles.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon5{
+  background: url("java.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon6{
+  background: url("fix\ computer.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon7{
+  background: url("excel.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon8{
+  background: url("python.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon9{
+  background: url("inteligencia\ de\ negocios.png") no-repeat -1px 0;
+  width: 25px;
+  height: 25px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon10{
+  background: url("Español.jpg") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon11{
+  background: url("Estados\ Unidos.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon12{
+  background: url("portugues.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon13{
+  background: url("programacion.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon14{
+  background: url("idiomas.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon15{
+  background: url("estudios.png") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon16{
+  background: url("mancuernas.jpg") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon17{
+  background: url("podcast.jpg") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+/*********************************************************************************************************/
+.skills ul li .skill_item .icon18{
+  background: url("lifestyle.jpg") no-repeat -1px 0;
+  width: 20px;
+  height: 22px;
+  margin: 0 auto 5px;
+}
+/*********************************************************************************************************/
+.full_info_wrap .tabs ul{
+  display: flex;
+  width: 100%;
+  height: 36px;
+  border: 1px solid #dfe4e6;
+  border-radius: 3px;
+}
+
+.full_info_wrap .tabs ul li{
+  padding: 10px 15px;
+  width: 33.34%;
+  height: 34px;
+  text-align: center;
+  border-right: 1px solid #dfe4e6;
+  background: #f2f4f5;
+  color: #a0acb5;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.full_info_wrap .tabs ul li:last-child{
+  border-right: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.full_info_wrap .tabs ul li.active,
+.full_info_wrap .tabs ul li:hover{
+  background: #fff;
+  color: #17202A;
+}
+
+.full_info{
+  padding-top: 15px;
+  height: 295px;
+  overflow: auto;
+}
+
+.info_wrap{
+  padding-left: 5px;
+}
+
+.info_wrap ul li{
+  margin-bottom: 10px;
+}
+
+.info_wrap ul li:last-child{
+  margin-bottom: 0;
+}
+
+.info_wrap .sub_title{
+  font-size: 16px;
+  font-weight: 600;
+  color:#17202A ;
+}
+
+.info_wrap .info_item{
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.info_wrap .info_item .info_title{
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.info_wrap .info_item .data{
+  font-size: 12px;
+}
+
+.contact .info_wrap ul li span{
+  display: inline-block;
+}
+
+.contact .info_wrap ul li span.info_q{
+  width: 150px;
+}
+
+.contact .info_wrap ul li span.info_a{
+  font-weight: 600;
+}
