@@ -57,25 +57,25 @@ body{
 }
 
 .resume .view_more_btn a{
-    display: block;
-    background:#17202A ;
-    color: #fff;
-    padding: 10px 15px;
-    width: 125px;
+  display: block;
+  background:#17202A ;
+  color: #fff;
+  padding: 10px 15px;
+  width: 125px;
   margin: 10px auto;
   border-radius: 3px;
 }
 
 .resume .view_more_btn a:hover {
-    background:#17202A ;
+  background:#17202A ;
 }
 
 .resume .title{
-    text-align: center;  
-    font-size: 16px;
-    font-weight: 700;
-    color:#17202A ;
-    margin-bottom: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color:#17202A ;
+  margin-bottom: 15px;
 }
 
 .skills ul{
@@ -174,6 +174,13 @@ body{
 
 .skills ul li .skill_item .icon9{
   background: url("inteligencia\ de\ negocios.png") no-repeat -1px 0;
+  width: 25px;
+  height: 25px;
+  margin: 0 auto 5px;
+}
+
+.skills ul li .skill_item .icon19{
+  background: url("MySQL.png") no-repeat -1px 0;
   width: 25px;
   height: 25px;
   margin: 0 auto 5px;
